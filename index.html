@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1">
+	<title>Onendless</title>
+	<link rel="stylesheet" type="text/css" href="./css/reset.css">
+	<link rel="stylesheet" type="text/css" href="./css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="./css/demo.css" />
+	<link rel="stylesheet" type="text/css" href="./css/component.css" />
+	<style type="text/css">
+	#container{
+		width: auto;
+		background-color:white;
+	}
+	#header{
+			height: 100px;
+			margin-bottom: 30px;
+			background-color: white;
+			background-image: url(./img/header.png);
+			background-position: 1600px 50px ;
+			background-repeat: no-repeat;
+	}
+	#header img{
+		position: relative;
+		left: 80px;
+	}
+	#left{
+		margin-top: 20px;
+		width: 300px;
+		float: left;
+	}
+	#nav li{
+			height: 90px;
+			font-size: 28px;
+			margin-left: 90px;
+			margin-top: 50px;
+			border-bottom: 5px outset gray;
+			font-style: italic;
+	}
+	#nav a:hover{
+		text-decoration: none;
+		text-shadow:1px 1px 0px;
+		color: gray;
+	}
+	#middle{
+		width: 1200px;
+		margin-left: 120px;
+		float: left;
+	}
+	.picture{
+		height: 350px;
+		width: 500px;
+		margin: 20px;
+		background-color: white;
+		float: left;
+	}
+	.photo{
+		height: 350px;
+		width: 500px;
+		border:0px solid white;
+		border-radius: 10px;
+	}
+	#right{
+		margin-top: 300px;
+		width: 150px;
+		float: left;
+	}
+	#right li{
+		height: 50px;
+		font-size: 26px;
+		margin-left: 0px;
+		margin-top: 30px;
+		line-height:50px;
+	}
+	#footer{
+		float: left;
+		margin-top: 60px;
+	}
+	</style>
+</head>
+<body>
+	<div id="container">
+		<div id="header">
+			<img src="./img/logo4.png" alt="">
+		</div>
+		<div id="main">
+				<div id="left">
+					<ul id="nav">
+						<li><a href="">日常随笔</a></li>
+						<li><a href="">一些想法</a></li>
+						<li><a href="">几张图片</a></li>
+						<li><a href="">技术资源</a></li>
+					</ul>
+				</div>
+				<div id="middle">
+					<div class="picture">
+						 <img src="./img/photo1.jpg" alt="" class="photo">
+					</div>
+					<div class="picture">
+						<img src="./img/photo2.jpg" alt="" class="photo">
+					</div>
+					<div class="picture">
+						<img src="./img/photo3.jpg" alt="" class="photo">
+					</div>
+					<div class="picture">
+						<img src="./img/photo4.jpg" alt="" class="photo">
+					</div>
+				</div>
+				<div id="right">
+					<ul>
+						<li><a href="">近期发布</a></li>
+						<li><a href="">留言板</a></li>	
+						<li><a href="">关于本站</a></li>
+					</ul>
+				</div>
+		</div>
+		<div id="footer">
+			Contact with me:<br>
+			onendless@gmail.com
+		</div>
+		<div style="clear:both"></div>
+	</div>
+</body>
+</html>
